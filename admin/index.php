@@ -113,11 +113,11 @@
 					<h4 class="modal-title" id="LoLabel">Caution!</h4>
 				</div>
 				<div class="modal-body">
-				 ログアウトします。よろしいですか?
+				 Are you sure you want to log out?
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
-					<a href="./auth/logout.php" role="button" class="btn btn-danger">ログアウト</a>
+					<a href="./auth/logout.php" role="button" class="btn btn-danger">logout</a>
 				</div>
 			</div><!-- /.modal-content -->
 		</div><!-- /.modal-dialog -->

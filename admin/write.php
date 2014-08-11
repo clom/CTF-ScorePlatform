@@ -120,7 +120,7 @@
 					<h4 class="modal-title" id="LoLabel">Caution!</h4>
 				</div>
 				<div class="modal-body">
-				I will clear the problem. Would you like?
+				I will clear the notice. Would you like?
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button><br><br>
