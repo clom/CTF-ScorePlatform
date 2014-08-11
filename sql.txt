@@ -1,0 +1,44 @@
+CREATE TABLE `notice` (
+`id` int( 10 ) unsigned NOT NULL AUTO_INCREMENT ,
+`title` varchar( 128 ) DEFAULT NULL ,
+`editor` longtext,
+`time` timestamp NULL DEFAULT CURRENT_TIMESTAMP ,
+PRIMARY KEY ( `id` )
+) ENGINE = MYISAM DEFAULT CHARSET = utf8;
+
+CREATE TABLE `auth` (
+`id` int( 20 ) unsigned NOT NULL AUTO_INCREMENT ,
+`account` varchar( 128 ) NOT NULL ,
+`passwd` varchar( 128 ) NOT NULL ,
+`displayname` varchar( 128 ) NOT NULL ,
+PRIMARY KEY ( `id` )
+) ENGINE = MYISAM DEFAULT CHARSET = utf8;
+
+CREATE TABLE `challenge` (
+`id` int( 20 ) unsigned NOT NULL AUTO_INCREMENT ,
+`title` varchar( 128 ) NOT NULL ,
+`discription` longtext NOT NULL ,
+`flag` varchar( 128 ) NOT NULL ,
+`score` int( 30 ) unsigned NOT NULL ,
+PRIMARY KEY ( `id` )
+) ENGINE = MYISAM DEFAULT CHARSET = utf8;
+
+CREATE TABLE `rank` (
+`id` int( 20 ) unsigned NOT NULL AUTO_INCREMENT ,
+`challengeid` int( 20 ) NOT NULL ,
+`userid` int( 20 ) NOT NULL ,
+`username` varchar( 128 ) NOT NULL ,
+`plusscore` int( 30 ) NOT NULL ,
+`cleardate` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ,
+PRIMARY KEY ( `id` )
+) ENGINE = MYISAM DEFAULT CHARSET = utf8;
+
+CREATE TABLE `solvelog` (
+`id` int( 20 ) unsigned NOT NULL AUTO_INCREMENT ,
+`challengeid` int( 20 ) unsigned NOT NULL ,
+`userid` int( 20 ) unsigned NOT NULL ,
+`solve` varchar( 128 ) NOT NULL ,
+`answertime` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ,
+`check` int( 10 ) NOT NULL ,
+PRIMARY KEY ( `id` )
+) ENGINE = MYISAM DEFAULT CHARSET = utf8;
