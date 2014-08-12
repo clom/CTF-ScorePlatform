@@ -76,7 +76,7 @@
 		while ($row = mysql_fetch_assoc($con)) {
 			$id = $row['id'];
 			$title = $row['title'];
-			$word = $row['discription'];
+			$word = htmlspecialchars_decode($row['discription']);
 			$score = $row['score'];
 		echo "<h1>".$id.": ".$title."</h1>";
 		echo "<h3>Score: ".$score."</h3>";

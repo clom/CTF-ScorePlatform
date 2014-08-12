@@ -96,7 +96,7 @@
 	<form action="./auth/chaedit.php" method="post">
 		<input type="hidden" name="id" value="<?php echo $id; ?>">
 		Title:<input type="text" class="form-control" name="title" placeholder="Title" value="<?php echo $title; ?>"><br>
-		Discription: <textarea class="form-control" rows="7" name="word"><?php echo $word; ?></textarea>
+		Discription(html): <textarea class="form-control" rows="7" name="word"><?php echo $word; ?></textarea>
 		Flag:<input type="text" class="form-control" name="flags" placeholder="Flags" value="<?php echo $flag; ?>"><br>
 		Score:<input type="text" class="form-control" name="score" placeholder="Score" value="<?php echo $score; ?>"><br>
 		<button type="submit" class="btn btn-info" onclick="DisableButton(this);">submit</button>

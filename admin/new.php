@@ -79,7 +79,7 @@
 	<?php echo $_SESSION['err']; ?>
 	<form action="./auth/new.php" method="post">
 		Title:<input type="text" class="form-control" name="title" placeholder="Title"><br>
-		Discription: <textarea class="form-control" rows="7" name="word"></textarea>
+		Discription(html): <textarea class="form-control" rows="7" name="word"></textarea>
 		Flag:<input type="text" class="form-control" name="flags" placeholder="Flags"><br>
 		Score:<input type="text" class="form-control" name="score" placeholder="Score"><br>
 		<button type="submit" class="btn btn-info" onclick="DisableButton(this);">submit</button>
