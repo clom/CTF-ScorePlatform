@@ -13,7 +13,6 @@
   include 'header.html';
 	?>
 
-	<div class="container">
 	<h1> Announcement: <?php echo $title; ?></h1>
 	<hr>
 

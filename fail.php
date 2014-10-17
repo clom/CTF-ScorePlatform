@@ -7,7 +7,6 @@
   include 'header.html';
 ?>
 
-	<div class="container">
 	<h1>  not Solve </h1>
 	<hr>
 

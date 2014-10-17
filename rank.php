@@ -14,7 +14,6 @@
   include 'header.html';
 ?>
 
-	<div class="container">
 	<h1> Ranking </h1>
 	<hr>
 

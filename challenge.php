@@ -13,7 +13,6 @@
   include 'header.html';
 ?>
 
-	<div class="container">
 
 	<h1> Challenge </h1>
 	<hr>

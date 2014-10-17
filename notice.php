@@ -5,7 +5,6 @@
   include 'header.html';
 ?>
 
-	<div class="container">
 	<h1> Announcement </h1>
 	<hr>
 	<?php

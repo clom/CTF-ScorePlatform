@@ -25,7 +25,6 @@
 	</script>
 
 
-	<div class="container">
 	<?php
 	if($con){
 		while ($row = mysql_fetch_assoc($con)) {

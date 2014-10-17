@@ -7,7 +7,6 @@
   include 'header.html';
 ?>
 
-	<div class="container">
 	<h1> Solve </h1>
 	<hr>
 

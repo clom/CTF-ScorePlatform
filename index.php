@@ -4,8 +4,6 @@
   include 'header.html';
 ?>
 
-	<div class="container">
-
 		<div class="well">
 			<h1> Welcome to CTF Score Platform</h1>
 		</div>
