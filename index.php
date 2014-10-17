@@ -67,14 +67,6 @@
 		?>
 	</table>
 
-
-	<footer>
-		Copyright (C) 2014 clom-networks. All Rights Reserved.
-	</footer>
-
-	</div> <!-- /container -->
-
-
 	<!-- Modal -->
 	<div class="modal fade" id="logout" tabindex="-1" role="dialog" aria-labelledby="LoLabel" aria-hidden="true">
 		<div class="modal-dialog">
@@ -93,17 +85,4 @@
 			</div><!-- /.modal-content -->
 		</div><!-- /.modal-dialog -->
 	</div><!-- /.modal -->
-
-
-	<!-- Bootstrap core JavaScript
-	================================================== -->
-	<!-- Placed at the end of the document so the pages load faster -->
-	<script src="./assets/js/jquery.js"></script>
-	<script src="./dist/js/bootstrap.min.js"></script>
-	<script>
-	$('#myCarousel').carousel({
-	interval: 3000;
-	});
-	</script>
-	</body>
-</html>
+<?php include 'footer.html';?>

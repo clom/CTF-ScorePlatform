@@ -66,22 +66,4 @@
 	?>
 	<br><br>
 
-	<footer>
-		Copyright (C) 2014 clom-networks. All Rights Reserved.
-	</footer>
-
-	</div> <!-- /container -->
-
-
-	<!-- Bootstrap core JavaScript
-	================================================== -->
-	<!-- Placed at the end of the document so the pages load faster -->
-	<script src="./assets/js/jquery.js"></script>
-	<script src="./dist/js/bootstrap.min.js"></script>
-	<script>
-	$('#myCarousel').carousel({
-	interval: 3000;
-	});
-	</script>
-	</body>
-</html>
+<?php include 'footer.html';?>
