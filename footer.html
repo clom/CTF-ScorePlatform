@@ -1,0 +1,29 @@
+      <footer>
+        Copyright (C) 2014 Kento NOMIYAMA. All Rights Reserved.
+      </footer>
+
+    </div> <!-- /container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/jquery.pjax.min.js"></script>
+    <script type="text/javascript">
+      $(function() {
+        $("ul.navbar-nav li").click(function() {
+        $("li").removeClass("active");
+        $(this).addClass("active");
+        });
+      });
+      $(document).ready(function() {
+        $('.navbar').pjax({
+          area: '#pjaxContent',
+          load: { head: 'link', css: true, script: false },
+          cache: { click: true, submit: false, popstate: true }
+        });
+      });
+    </script>
+  </body>
+</html>
